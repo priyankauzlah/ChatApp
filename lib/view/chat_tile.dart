@@ -59,7 +59,7 @@ class ChatTile extends StatelessWidget {
                 style: greyTextStyle.copyWith(
                     fontSize: 14, fontWeight: FontWeight.w300),
               ),
-              SizedBox(height: 8,)
+              SizedBox(height: 8.0,)
             ],
           ),
         ],

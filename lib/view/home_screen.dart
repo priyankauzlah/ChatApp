@@ -92,10 +92,11 @@ class _HomeScreenState extends State<HomeScreen> {
                       height: 16,
                     ),
                     ChatTileRead(
-                        name: "Jakarta Fair",
-                        profile: "assets/images/jakartafair.png",
-                        text: "Why does everyone ca...",
-                        time: "11:11"),
+                      name: "Jakarta Fair",
+                      profile: "assets/images/jakartafair.png",
+                      text: "Why does everyone ca...",
+                      time: "11:11",
+                    ),
                     SizedBox(
                       height: 20,
                     ),
@@ -115,7 +116,12 @@ class _HomeScreenState extends State<HomeScreen> {
                     SizedBox(
                       height: 10,
                     ),
-                    Center(child: Image.asset("assets/images/btn.png", width: 100, height: 100,)),
+                    Center(
+                        child: Image.asset(
+                      "assets/images/btn.png",
+                      width: 100,
+                      height: 100,
+                    )),
                   ],
                 ),
               ),
